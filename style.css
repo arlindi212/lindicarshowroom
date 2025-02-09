@@ -50,6 +50,38 @@ header nav ul li a {
     color: white;
     font-size: 18px;
 }
+/* Për qendrimin e butonit */
+.ac button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Për të siguruar hapësirën e mjaftueshme */
+    margin-top: 20px; /* Hapësirë e sipërme */
+}
+
+/* Për stilizimin e butonit */
+.button {
+    background-color: #ff5722;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color:#ff5722;
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #ff5722;
+    transform: scale(0.95)
+}
 
 /* Hero Section */
 .hero {
